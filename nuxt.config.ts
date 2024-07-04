@@ -4,6 +4,7 @@ export default defineNuxtConfig({
   compatibilityDate: "2024-07-03",
   modules: ["usebootstrap"],
   css: [
-    "bootstrap/scss/bootstrap.scss"
+    "bootstrap/scss/bootstrap.scss",
+    "~/assets/scss/_variables.scss",
   ]
 })
