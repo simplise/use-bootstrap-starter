@@ -7,7 +7,6 @@ definePageMeta({
 </script>
 
 <template>
-    <button type="button" class="btn btn-primary">Primary</button>
     <Container type="xxl" margin="t-5">
         <div class="bd-content">
             <h2 id="snippets">
