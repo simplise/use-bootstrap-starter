@@ -22,7 +22,7 @@
                     <hr class="d-lg-none text-white-50">
                     <NavbarNavList flex-direction="row" flex-wrap="wrap" class="bd-navbar-nav">
                         <NavItem col="6 lg-auto">
-                            <NavLink to="/examples/" padding="x-0 x-lg-2">
+                            <NavLink to="/" padding="x-0 x-lg-2">
                                 Examples
                             </NavLink>
                         </NavItem>
