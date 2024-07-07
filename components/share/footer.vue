@@ -51,14 +51,6 @@
               <b-li margin="b-2">
                 <b-a text-color="body-secondary" link-underline="0 100-hover dark" href="/">Home</b-a>
               </b-li>
-              <b-li margin="b-2">
-                <b-a text-color="body-secondary" link-underline="0 100-hover dark" href="/">Docs</b-a>
-              </b-li>
-              <b-li margin="b-2">
-                <b-a text-color="body-secondary" link-underline="0 100-hover dark" href="/examples/">
-                  Examples
-                </b-a>
-              </b-li>
             </b-ul>
           </Col>
           <Col
@@ -79,7 +71,7 @@
             <b-h level="5">Projects</b-h>
             <b-ul unstyled>
               <b-li margin="b-2">
-                <b-a text-color="body-secondary" link-underline="0 100-hover dark" href="/">use-bootstrap</b-a>
+                <b-a text-color="body-secondary" link-underline="0 100-hover dark" href="https://usebootstrap.org/">use-bootstrap</b-a>
               </b-li>
             </b-ul>
           </Col>
