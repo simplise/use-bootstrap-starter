@@ -16,7 +16,7 @@
                     <OffcanvasTitle>
                         Bootstrap
                     </OffcanvasTitle>
-                    <!-- <CloseButton dismiss="offcanvas" /> -->
+                    <CloseButton dismiss="offcanvas" />
                 </OffcanvasHeader>
                 <OffcanvasBody padding="4 t-0 lg-0">
                     <hr class="d-lg-none text-white-50">
