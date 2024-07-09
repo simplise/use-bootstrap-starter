@@ -4,7 +4,7 @@ export default defineNuxtConfig({
   compatibilityDate: "2024-07-03",
   modules: ["usebootstrap"],
   css: [
-    "usebootstrap/scss/usebootstrap"
+    "./assets/scss/custom.scss"
   ],
   vite: {
     css: {
