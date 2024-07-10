@@ -84,13 +84,4 @@
         </Row>
       </Container>
     </b-footer>
-    <b-div
-      position="fixed"
-      aria-hidden="true"
-    >
-      <input
-        type="text"
-        tabindex="-1"
-      >
-    </b-div>
   </template>

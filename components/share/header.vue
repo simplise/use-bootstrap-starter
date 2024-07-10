@@ -1,17 +1,16 @@
 <template>
-    <Navbar expand="lg" sticky="top" class="bg-primary">
-        <Container type="xl" flex-wrap="wrap lg-nowrap" class="bd-gutter">
+    <Navbar expand="lg" sticky="top" background-color="primary">
+        <Container type="xl" flex-wrap="wrap lg-nowrap">
             <b-div class="bd-navbar-toggle">
-                <NavbarToggler target="#bdSidebar" icon="bi:list" :padding="2" class="text-white border-success" />
+                <NavbarToggler target="#sidebar" icon="bi:list" padding="2" />
             </b-div>
             <NavbarBrand to="/" padding="0" margin="0 e-2 s-md-3 s-xl-0">
                 <img src="~/assets/img/logo3.svg" alt="use-bootstrap" height="30">
             </NavbarBrand>
             <b-div flex>
-                <NavbarToggler icon="bi:three-dots" flex display="lg-none" :order="3" :padding="2" target="#bdNavbar"
-                    class="text-white border-success" />
+                <NavbarToggler icon="bi:three-dots" flex display="lg-none" order="3" padding="2" target="#navbar" />
             </b-div>
-            <Offcanvas id="bdNavbar" type="lg" placement="end" flex-grow="grow-1">
+            <Offcanvas id="navbar" type="lg" placement="end" flex-grow="grow-1">
                 <OffcanvasHeader padding="x-4 b-0">
                     <OffcanvasTitle>
                         Bootstrap
@@ -20,10 +19,17 @@
                 </OffcanvasHeader>
                 <OffcanvasBody padding="4 t-0 lg-0">
                     <hr class="d-lg-none text-white-50">
-                    <NavbarNavList flex-direction="row" flex-wrap="wrap" class="bd-navbar-nav">
+                    <NavbarNavList flex-direction="row" flex-wrap="wrap">
                         <NavItem col="6 lg-auto">
                             <NavLink to="/" padding="x-0 x-lg-2">
-                                Examples
+                                About
+                            </NavLink>
+                        </NavItem>
+                    </NavbarNavList>
+                    <NavbarNavList flex-direction="row" flex-wrap="wrap">
+                        <NavItem col="6 lg-auto">
+                            <NavLink to="/welcome" padding="x-0 x-lg-2">
+                                Nuxt
                             </NavLink>
                         </NavItem>
                     </NavbarNavList>
@@ -47,21 +53,3 @@
         </Container>
     </Navbar>
 </template>
-
-<style scoped>
-.nav-item :deep(a) {
-    --bs-nav-link-color: var(--bs-gray-100);
-    --bs-navbar-active-color: var(--bs-white);
-    --bs-navbar-hover-color: var(--bs-white);
-    --bs-nav-link-hover-color: var(--bs-white);
-}
-
-@media (max-width: 991.98px) {
-    .nav-item :deep(a) {
-        --bs-nav-link-color: var(--bs-dark-text-emphasis);
-        --bs-navbar-active-color: var(--bs-dark-text-emphasis);
-        --bs-navbar-hover-color: var(--bs-dark-text-emphasis);
-        --bs-nav-link-hover-color: var(--bs-dark-text-emphasis);
-    }
-}
-</style>
