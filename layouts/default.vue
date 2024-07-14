@@ -40,6 +40,7 @@
     </GridTemplate>
   </Container>
   <ShareFooter />
+  <BackToTop />
 </template>
 
 <style>

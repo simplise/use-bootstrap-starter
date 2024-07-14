@@ -11,7 +11,7 @@
   },
   "dependencies": {
     "nuxt": "^3.12.3",
-    "usebootstrap": "^3.5.17",
+    "usebootstrap": "^3.5.19",
     "vue": "latest"
   }
 }
