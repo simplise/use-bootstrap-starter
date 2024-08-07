@@ -5,7 +5,11 @@
       columns-lg="1fr 640px 160px" columns-xl="1fr 760px 1fr" columns-xxl="1fr 880px 1fr">
       <GridArea area="s" margin="e-md-4 s-md-3 s-xl-0" overflow="y-auto x-hidden" sticky="lg-top" z="1"
         class="area-s un-top-5rem">
-        <Sidebar id="sidebar" />
+        <ViewState v-slot="navigation" src="route://meta" path="navigation">
+          <ViewState v-slot="navRoutes" :src="`app-config://usebootstrap/navigations/${navigation.data || 'default'}`">
+            <Sidebar id="sidebar" :data="navRoutes.data" />
+          </ViewState>
+        </ViewState>
       </GridArea>
       <GridArea area="c">
         <Container type="8" margin="x-auto">
@@ -47,12 +51,15 @@
 .area-s {
   max-height: calc(100vh - 7rem);
 }
+
 .area-e {
   max-height: calc(100vh - 7rem);
 }
+
 #sidebar {
   top: 3rem;
 }
+
 #sidebar .active,
 #sidebar .active:active,
 #sidebar .active:hover {
@@ -61,6 +68,7 @@
   border-color: #00bb8e;
   border-style: none none none solid;
 }
+
 .toc .active {
   color: #00bb8e !important;
   border-color: #00bb8e;
