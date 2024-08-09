@@ -6,9 +6,7 @@
       <GridArea area="s" margin="e-md-4 s-md-3 s-xl-0" overflow="y-auto x-hidden" sticky="lg-top" z="1"
         class="area-s un-top-5rem">
         <ViewState v-slot="navigation" src="route://meta" path="navigation">
-          <ViewState v-slot="navRoutes" :src="`app-config://usebootstrap/navigations/${navigation.data || 'default'}`">
-            <Sidebar id="sidebar" :data="navRoutes.data" />
-          </ViewState>
+          <Sidebar id="sidebar" :src="`app-config://usebootstrap/navigations/${navigation.data || 'default'}`" />
         </ViewState>
       </GridArea>
       <GridArea area="c">
