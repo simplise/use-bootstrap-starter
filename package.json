@@ -11,10 +11,10 @@
   },
   "dependencies": {
     "sass": "1.77.6",
-    "usebootstrap": "^3.5.30",
+    "usebootstrap": "^3.5.31",
     "vue": "latest"
   },
   "devDependencies": {
-    "nuxt": "^3.12.4"
+    "nuxt": "^3.13.0"
   }
 }
