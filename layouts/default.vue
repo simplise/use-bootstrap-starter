@@ -32,7 +32,6 @@
    </Toc>
   </template>
   <template #default>
-   <Intro />
    <b-div
     id="content"
    >

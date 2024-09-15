@@ -6,6 +6,7 @@ definePageMeta({
 </script>
 
 <template>
+   <Intro />
     <Localization>
         <template #en>
             <h2>Hi! This is English</h2>

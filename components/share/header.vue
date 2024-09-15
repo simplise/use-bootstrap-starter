@@ -10,7 +10,7 @@
             <b-div flex>
                 <NavbarToggler icon="bi:three-dots" flex display="lg-none" order="3" padding="2" target="#navbar" />
             </b-div>
-            <Offcanvas id="navbar" type="lg" placement="end" flex-grow="grow-1">
+            <Offcanvas id="navbar" type="lg" placement="end" flex-grow="1">
                 <OffcanvasHeader padding="x-4 b-0">
                     <OffcanvasTitle>
                         Bootstrap
