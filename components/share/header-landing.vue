@@ -23,24 +23,25 @@
                                     <Col col="lg-6">
                                     <Background background-color="primary-subtle" overlay-color="pink-500"
                                         overlay-alpha="0.5" z="1" padding="5" relative-height="100">
-                                        <div class="mb-4">
-                                            <span class="h2 d-block">Bootstrap</span>
-                                            <p>Bootstrap is a powerful, feature-packed frontend toolkit. Build
-                                                anything—from prototype to production—in minutes.</p>
-                                        </div>
-                                        <b-a button="primary" href="https://usebootstrap.org/" target="_blank">
-                                            Learn more <b-icon icon="bi-chevron-right" />
-                                        </b-a>
+                                        <b-div headings="2">
+                                            Bootstrap
+                                        </b-div>
+                                        <p>Bootstrap is a powerful, feature-packed frontend toolkit. Build anything—from
+                                            prototype to production—in minutes.</p>
+                                        <icon-link button="primary" to="https://usebootstrap.org/"
+                                            icon="bi-chevron-right" icon-end>
+                                            Learn more
+                                        </icon-link>
                                     </Background>
                                     </Col>
                                     <Col col="lg-6" padding="3">
                                     <DropdownItem header>
-                                        <b-a  href="https://usebootstrap.org/lang-en" target="_blank">
+                                        <b-a href="https://usebootstrap.org/lang-en" target="_blank">
                                             Bootstrap <b-icon icon="bi-chevron-right" />
                                         </b-a>
                                     </DropdownItem>
                                     <DropdownItem header>
-                                        <b-a  href="https://usebootstrap.org/lang-en/extend" target="_blank">
+                                        <b-a href="https://usebootstrap.org/lang-en/extend" target="_blank">
                                             Extend <b-icon icon="bi-chevron-right" />
                                         </b-a>
                                     </DropdownItem>
@@ -51,16 +52,16 @@
                     </NavItemDropdown>
                 </NavbarNavList>
                 <NavbarNavList flex-direction="row" flex-wrap="wrap" margin="s-md-auto">
+                    <NavItem padding="y-2" col="12 lg-auto">
+                        <Vr display="none lg-flex" relative-height="100" margin="x-lg-2" text-color="black-50" />
+                        <hr class="d-lg-none my-2 text-black-50" />
+                    </NavItem>
                     <NavItem col="6 lg-auto">
                         <NavLink pdding="y-2 x-0 x-lg-2" to="https://github.com/simplise/use-bootstrap" target="_blank"
                             rel="noopener">
                             <Icon name="bi:github" class="navbar-nav-svg" />
                         </NavLink>
                     </NavItem>
-                    <li class="nav-item py-2 py-lg-1 col-12 col-lg-auto">
-                        <b-div display="none lg-flex" class="vr h-100 mx-lg-2 text-white" />
-                        <hr class="d-lg-none my-2 text-white-50" />
-                    </li>
                 </NavbarNavList>
             </NavbarCollapse>
         </Container>
