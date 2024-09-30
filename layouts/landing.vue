@@ -4,7 +4,7 @@
    theme="light"
   >
    <template #header>
-    <ShareHeader />
+    <ShareHeaderLanding />
    </template>
    <template #default>
     <slot />

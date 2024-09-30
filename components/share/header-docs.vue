@@ -22,14 +22,14 @@
                     <NavbarNavList flex-direction="row" flex-wrap="wrap">
                         <NavItem col="6 lg-auto">
                             <NavLink to="/" padding="x-0 x-lg-2">
-                                About
+                                Landing
                             </NavLink>
                         </NavItem>
                     </NavbarNavList>
                     <NavbarNavList flex-direction="row" flex-wrap="wrap">
                         <NavItem col="6 lg-auto">
-                            <NavLink to="/welcome" padding="x-0 x-lg-2">
-                                Nuxt
+                            <NavLink to="https://usebootstrap.org/" target="_blank" padding="x-0 x-lg-2">
+                                UseBootstrap
                             </NavLink>
                         </NavItem>
                     </NavbarNavList>

@@ -19,10 +19,6 @@
         "icon": "simple-icons:nuxtdotjs",
         "color": "indigo",
         "children": [
-            {
-                "name": "Welcome",
-                "path": "/welcome"
-            }
         ]
     }
 ]

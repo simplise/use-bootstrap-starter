@@ -1,19 +1,34 @@
 <script setup lang="ts">
 definePageMeta({
+  layout: 'landing',
   title: 'About use-bootstrap',
   description: 'Quickly get a project started with any of our examples ranging from using parts of the framework to custom components and layouts.'
 })
 </script>
-
 <template>
-  <Background video-src="/pexels/movie/3209211-uhd_3840_2160_25fps.mp4" :overlay="true" overlay-color="gray-100">
-    <b-h level="1" margin="5" display-headings="1" text-color="white">
-      <b-p text-color="blue">usebootstrap is</b-p>
-      <Typed class="text-primary fw-semibold" :strings="['powerful.', 'extensible.', 'feature-packed.']"
-        :type-speed="60" :loop="true" :back-speed="25" :back-delay="1500" />
-    </b-h>
+  <Container margin="t-5">
+    <HeroHeadingsDescription />
+  </Container>
+  <HeroLandingVb />
+  <Container margin="y-5">
+    <ColumnsOurService />
+  </Container>
+  <Background background-color="blue-100" pattern-src="/hero-patterns/jigsaw.svg" margin="y-5">
+    <Container margin="y-5">
+      <ColumnsOurServiceHighlights />
+    </Container>
   </Background>
-  <h2>First step</h2>
-  <h2>Second step</h2>
+  <Container margin="y-5">
+    <BlocksKeyBenefits />
+  </Container>
+  <hr />
+  <Container margin="y-5">
+    <ColumnsServiceStats />
+  </Container>
+  <Background background-color="body-secondary" pattern-src="/hero-patterns/texture.svg" margin="y-5">
+    <Container margin="y-5">
+      <ColumnsSuccessStories />
+    </Container>
+  </Background>
 
 </template>

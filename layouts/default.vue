@@ -1,7 +1,7 @@
 <template>
- <PageLayout type="TwoColumnsBetween">
+ <PageLayout type="three-columns">
   <template #header>
-   <ShareHeader />
+   <ShareHeaderDocs />
   </template>
   <template #start>
    <ViewState
