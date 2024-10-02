@@ -11,9 +11,10 @@
         <Col>
         <Card relative-height="100" class="un-transition-all un-ease-in-out hover:-un-translate-y-0.5"
             background-color="transparent">
-            <Background img-src="/unsplash/image/480x220/dlxmedia-hu-U-W8FKeC6Mo-unsplash.jpg" relative-height="100" rounded>
+            <Background img-src="/unsplash/image/480x220/dlxmedia-hu-U-W8FKeC6Mo-unsplash.jpg" relative-height="100"
+                :overlay="true" overlay-color="white" overlay-alpha="0.6" :img-parallax="0.1" rounded>
                 <CardBody>
-                    <CardTitle text-color="dark">
+                    <CardTitle text-color="dark" headings="1">
                         Design Tools
                     </CardTitle>
                     <CardText text-color="dark">
