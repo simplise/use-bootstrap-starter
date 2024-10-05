@@ -57,14 +57,6 @@
   top: 3rem;
 }
 
-#sidebar .active,
-#sidebar .active:active,
-#sidebar .active:hover {
-  color: white !important;
-  background-color: #00bb8e;
-  border-color: #00bb8e;
-  border-style: none none none solid;
-}
 
 .toc .active {
   color: #00bb8e !important;
