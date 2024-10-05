@@ -11,6 +11,7 @@
    >
     <Sidebar
      id="sidebar"
+     active-background-color="teal-700"
      :src="`app-config://usebootstrap/navigations/${navigation.data || 'default'}`"
     />
    </ViewState>
@@ -44,23 +45,3 @@
  </PageLayout>
 </template>
 
-<style>
-.area-s {
-  max-height: calc(100vh - 7rem);
-}
-
-.area-e {
-  max-height: calc(100vh - 7rem);
-}
-
-#sidebar {
-  top: 3rem;
-}
-
-
-.toc .active {
-  color: #00bb8e !important;
-  border-color: #00bb8e;
-  border-style: none none none solid;
-}
-</style>
