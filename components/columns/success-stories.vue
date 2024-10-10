@@ -111,7 +111,7 @@
      size="md-4"
     >
      <b-button
-      button="outline-primary"
+      color="outline-primary"
       relative-width="100"
      >
       view all stories

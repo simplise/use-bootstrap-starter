@@ -28,7 +28,7 @@
                                         </b-div>
                                         <p>Bootstrap is a powerful, feature-packed frontend toolkit. Build anything—from
                                             prototype to production—in minutes.</p>
-                                        <Anchor button="primary" to="https://usebootstrap.org/"
+                                        <Anchor color="primary" to="https://usebootstrap.org/"
                                             icon="bi-chevron-right" icon-end>
                                             Learn more
                                         </Anchor>
