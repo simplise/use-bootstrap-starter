@@ -62,14 +62,14 @@
          <b-p text-color="secondary">
           Discover the top features designed to meet your requirements.
          </b-p>
-         <IconLink
+         <Anchor
           icon="bi:chevron-right"
           icon-end
           to="/"
           stretched-link
          >
           <b>Learn more</b>
-         </IconLink>
+         </Anchor>
         </Col>
        </Row>
       </CardBody>
