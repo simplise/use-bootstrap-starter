@@ -28,22 +28,22 @@
                                         </b-div>
                                         <p>Bootstrap is a powerful, feature-packed frontend toolkit. Build anything—from
                                             prototype to production—in minutes.</p>
-                                        <icon-link button="primary" to="https://usebootstrap.org/"
+                                        <Anchor button="primary" to="https://usebootstrap.org/"
                                             icon="bi-chevron-right" icon-end>
                                             Learn more
-                                        </icon-link>
+                                        </Anchor>
                                     </Background>
                                     </Col>
                                     <Col col="lg-6" padding="3">
                                     <DropdownItem header>
-                                        <b-a href="https://usebootstrap.org/lang-en" target="_blank">
-                                            Bootstrap <b-icon icon="bi-chevron-right" />
-                                        </b-a>
+                                        <Anchor href="https://usebootstrap.org/lang-en" target="_blank" icon="bi-chevron-right" icon-end>
+                                            Bootstrap
+                                        </Anchor>
                                     </DropdownItem>
                                     <DropdownItem header>
-                                        <b-a href="https://usebootstrap.org/lang-en/extend" target="_blank">
-                                            Extend <b-icon icon="bi-chevron-right" />
-                                        </b-a>
+                                        <Anchor href="https://usebootstrap.org/lang-en/extend" target="_blank" icon="bi-chevron-right" icon-end>
+                                            Extend
+                                        </Anchor>
                                     </DropdownItem>
                                     </Col>
                                 </Row>
