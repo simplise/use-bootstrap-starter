@@ -49,7 +49,7 @@
             <b-h level="5">Links</b-h>
             <b-ul unstyled>
               <b-li margin="b-2">
-                <b-a text-color="body-secondary" link-underline="0 100-hover dark" href="/">Home</b-a>
+                <Anchor text-color="body-secondary" link-underline="0 100-hover dark" href="/">Home</Anchor>
               </b-li>
             </b-ul>
           </Col>
@@ -60,7 +60,7 @@
             <b-h level="5">Guides</b-h>
             <b-ul unstyled>
               <b-li margin="b-2">
-                <b-a text-color="body-secondary" link-underline="0 100-hover dark" href="/">Getting started</b-a>
+                <Anchor text-color="body-secondary" link-underline="0 100-hover dark" href="/">Getting started</Anchor>
               </b-li>
             </b-ul>
           </Col>
@@ -71,7 +71,7 @@
             <b-h level="5">Projects</b-h>
             <b-ul unstyled>
               <b-li margin="b-2">
-                <b-a text-color="body-secondary" link-underline="0 100-hover dark" href="https://usebootstrap.org/">use-bootstrap</b-a>
+                <Anchor text-color="body-secondary" link-underline="0 100-hover dark" href="https://usebootstrap.org/">use-bootstrap</Anchor>
               </b-li>
             </b-ul>
           </Col>
