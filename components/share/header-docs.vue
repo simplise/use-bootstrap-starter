@@ -21,14 +21,14 @@
                     <hr class="d-lg-none text-white-50">
                     <NavbarNavList flex-direction="row" flex-wrap="wrap">
                         <NavItem col="6 lg-auto">
-                            <NavLink to="/" padding="x-0 x-lg-2">
+                            <NavLink to="/" padding="x-0 x-lg-2" text-color="white">
                                 Landing
                             </NavLink>
                         </NavItem>
                     </NavbarNavList>
                     <NavbarNavList flex-direction="row" flex-wrap="wrap">
                         <NavItem col="6 lg-auto">
-                            <NavLink to="https://usebootstrap.org/" target="_blank" padding="x-0 x-lg-2">
+                            <NavLink to="https://usebootstrap.org/" target="_blank" padding="x-0 x-lg-2" text-color="white">
                                 UseBootstrap
                             </NavLink>
                         </NavItem>
