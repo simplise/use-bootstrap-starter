@@ -1,12 +1,13 @@
 <script setup lang="ts">
 definePageMeta({
     title: 'Localization',
-    description: 'Quickly get a project started with any of our examples ranging from using parts of the framework to custom components and layouts.'
+    'description:en': 'Make your site multilingual with <Localization>',
+    'description:ja': '<Localization>を用いて多言語に対応するサイトを作りましょう。'
 })
 </script>
 
 <template>
-   <Intro />
+   <DocsIntro />
     <Localization>
         <template #en>
             <h2>Hi! This is English</h2>
