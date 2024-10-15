@@ -15,6 +15,7 @@
     "vue": "latest"
   },
   "devDependencies": {
+    "@nuxt/eslint": "^0.6.0",
     "nuxt": "^3.13.0"
   },
   "volta": {

@@ -2,7 +2,7 @@
 export default defineNuxtConfig({
   devtools: { enabled: false },
   compatibilityDate: "2024-07-03",
-  modules: ["usebootstrap"],
+  modules: ["usebootstrap", "@nuxt/eslint"],
   css: [
     "./assets/scss/custom.scss"
   ],
@@ -15,6 +15,15 @@ export default defineNuxtConfig({
            `,
         },
       },
-    }}
+    }
+  },
+  eslint: {
+    config: {
+      stylistic: {
+        indent: 1,
+        semi: true,
+      }
+    }
   }
+}
 )
