@@ -11,7 +11,7 @@
       </NavLink>
      </NavItem>
      <NavItem>
-      <NavLink to="/lang-en/components/navbar/">
+      <NavLink to="/">
        Link
       </NavLink>
      </NavItem>
@@ -19,7 +19,7 @@
       <NavItemDropdownToggle>Dropdown</NavItemDropdownToggle>
       <DropdownMenu>
        <DropdownItem>Action</DropdownItem>
-       <DropdownItem to="/lang-en/components/navbar/">
+       <DropdownItem to="/">
         Another action
        </DropdownItem>
        <DropdownItemDivider />
