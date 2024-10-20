@@ -1,5 +1,5 @@
 <template>
-    <Block
+    <HeroRow
      margin="y-3"
      size="md-8"
      justify-content="start"
@@ -10,7 +10,7 @@
      <b-p headings="3">
       Elevate your services with our comprehensive solutions.
      </b-p>
-    </Block>
+    </HeroRow>
     <Row>
      <Col col="md-5">
       <Card

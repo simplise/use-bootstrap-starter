@@ -11,7 +11,7 @@
   },
   "dependencies": {
     "sass": "1.77.6",
-    "usebootstrap": "^3.5.82",
+    "usebootstrap": "^3.5.83",
     "vue": "latest"
   },
   "devDependencies": {

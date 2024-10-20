@@ -1,5 +1,5 @@
 <template>
-    <Block size="md-10">
+    <HeroRow size="md-10">
      <Card shadow>
       <CardBody>
        <Row
@@ -74,6 +74,6 @@
        </Row>
       </CardBody>
      </Card>
-    </Block>
+    </HeroRow>
    </template>
    

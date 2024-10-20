@@ -1,5 +1,5 @@
 <template>
-    <Block>
+    <HeroRow>
      <b-h
       level="1"
       display-headings="3"
@@ -17,14 +17,14 @@
       <br />
       your trusted business partner
      </b-h>
-    </Block>
-    <Block
+    </HeroRow>
+    <HeroRow
      size="md-10"
      justify-content="start"
     >
      <p class="lead">
       We provide top-notch solutions to help your business thrive in today's competitive market. Our team is dedicated to delivering excellence and driving success for our clients.
      </p>
-    </Block>
+    </HeroRow>
    </template>
    

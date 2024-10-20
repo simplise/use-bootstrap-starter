@@ -56,6 +56,5 @@ definePageMeta({
   <FixtureSortable />
   <FixtureJsonView />
   <FixturePasswordStrength />
-  <FixtureEditor />
-  <FixtureVueuse />
+  <FixtureEditor />  
 </template>

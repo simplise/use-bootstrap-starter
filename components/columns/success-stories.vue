@@ -1,5 +1,5 @@
 <template>
-    <Block
+    <HeroRow
      size="8"
      text-alignment="center"
      margin="y-3"
@@ -8,7 +8,7 @@
      <b-div headings="2">
       Discover how our platform is enabling teams to streamline their workflows and enhance productivity
      </b-div>
-    </Block>
+    </HeroRow>
    
     <Row
      margin="b-3"
@@ -107,7 +107,7 @@
       </Card>
      </Col>
     </Row>
-    <Block
+    <HeroRow
      size="md-4"
     >
      <b-button
@@ -116,6 +116,6 @@
      >
       view all stories
      </b-button>
-    </Block>
+    </HeroRow>
    </template>
    

@@ -1,12 +1,12 @@
 <template>
-    <Block text-alignment="center">
+    <HeroRow text-alignment="center">
         <b-h level="2">
             Key Benefits
         </b-h>
         <b-p text-color="secondary">
             Discover why over 100,000 users love our platform
         </b-p>
-    </Block>
+    </HeroRow>
     <Row gutter="x-3" columns="1 md-2">
         <Col>
         <Card relative-height="100" class="un-transition-all un-ease-in-out hover:-un-translate-y-0.5"
