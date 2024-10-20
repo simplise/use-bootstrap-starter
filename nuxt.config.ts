@@ -24,6 +24,16 @@ export default defineNuxtConfig({
         semi: true,
       }
     }
-  }
+  },
+  usebootstrap: {
+    integration: {
+     protocol: {
+      reqres: {
+       type: 'fetch',
+       prefix: 'https://reqres.in/api/',
+      },
+     },
+    },
+   },
 }
 )
