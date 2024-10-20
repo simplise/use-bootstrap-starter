@@ -9,9 +9,7 @@ definePageMeta({
   <b-div>b-div</b-div>
   <b-span>b-div</b-span>
   <FixtureAccordion />
-  <FixtureAccordion />
   <FixtureBadge />
-  <FixtureBreadcrumb />
   <FixtureBreadcrumb />
   <FixtureCarousel />
   <FixtureCollapse />
@@ -19,7 +17,6 @@ definePageMeta({
   <FixtureListGroup />
   <FixtureNavbar />
   <FixtureNavList />
-  <FixtureOffcanvas />
   <FixtureOffcanvas />
   <FixtureProgress />
   <Spinner text-color="primary" />
