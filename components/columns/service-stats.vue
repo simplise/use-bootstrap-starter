@@ -19,7 +19,7 @@
        </p>
       </b-div>
      </Col>
-     <HTVDivider virtical="md" />
+     <ResponsiveRule vertical="md" />
      <Col>
       <b-div
        data-aos="fade-up"
@@ -38,7 +38,7 @@
        </p>
       </b-div>
      </Col>
-     <HTVDivider virtical="md" />
+     <ResponsiveRule vertical="md" />
      <Col col="md-4">
       <b-div
        data-aos="fade-up"
