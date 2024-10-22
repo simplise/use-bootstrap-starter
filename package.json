@@ -10,8 +10,9 @@
     "postinstall": "nuxt prepare"
   },
   "dependencies": {
+    "ipx": "^3.0.1",
     "sass": "1.77.6",
-    "usebootstrap": "^3.5.95",
+    "usebootstrap": "^3.5.98",
     "vue": "latest"
   },
   "devDependencies": {
