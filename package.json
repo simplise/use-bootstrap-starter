@@ -12,7 +12,7 @@
   "dependencies": {
     "ipx": "^3.0.1",
     "sass": "1.77.6",
-    "usebootstrap": "^3.5.99",
+    "usebootstrap": "^3.5.100",
     "vue": "latest"
   },
   "devDependencies": {
