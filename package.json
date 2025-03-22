@@ -12,14 +12,14 @@
   "dependencies": {
     "ipx": "^3.0.1",
     "sass": "1.77.6",
-    "usebootstrap": "^3.5.100",
+    "usebootstrap": "^3.5.101",
     "vue": "latest"
   },
   "devDependencies": {
     "@nuxt/eslint": "^0.6.0",
-    "nuxt": "^3.13.0"
+    "nuxt": "^3.16.1"
   },
   "volta": {
-    "node": "20.17.0"
+    "node": "22.14.0"
   }
 }

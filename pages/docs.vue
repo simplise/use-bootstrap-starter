@@ -1,11 +1,9 @@
-<script setup lang="ts">
-definePageMeta({
-  title: 'About use-bootstrap',
-  description: 'Quickly get a project started with any of our examples ranging from using parts of the framework to custom components and layouts.'
-})
-</script>
 
 <template>
+  <Head>
+    <PageMeta title="About use-bootstrap"
+      description="Quickly get a project started with any of our examples ranging from using parts of the framework to custom components and layouts." />
+  </Head>
   <Background video-src="/pexels/movie/3209211-uhd_3840_2160_25fps.mp4" :overlay="true" overlay-color="gray-100">
     <b-h level="1" margin="5" display-headings="1" text-color="white">
       <b-p text-color="blue">usebootstrap is</b-p>
