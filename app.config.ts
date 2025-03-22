@@ -1,9 +1,9 @@
-import defaultNavs from "~/assets/json/navigations/default.json"
+import defaultNavs from '~/assets/json/navigations/default.json';
 
 export default defineAppConfig({
-    usebootstrap: {
-        navigations: {
-            default: defaultNavs,
-        },
-    }
-})
+ usebootstrap: {
+  navigations: {
+   default: defaultNavs,
+  },
+ },
+});

@@ -1,6 +1,13 @@
 <template>
+ <div>
   <Head>
-    <PageMeta title="Components" description="Components Examples for testing." />
+   <PageMeta
+    title="Components"
+    description="Components Examples for testing."
+   />
   </Head>
-  <ComponentsCatalog />
+  <NuxtLayout>
+   <ComponentsCatalog />
+  </NuxtLayout>
+ </div>
 </template>

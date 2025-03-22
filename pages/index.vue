@@ -1,36 +1,45 @@
-<script setup lang="ts">
-definePageMeta({
-  layout: 'landing',
-})
-</script>
 <template>
+ <div>
   <Head>
-    <PageMeta title="About use-bootstrap"
-      description="Quickly get a project started with any of our examples ranging from using parts of the framework to custom components and layouts." />
+   <PageMeta
+    title="About use-bootstrap"
+    description="Quickly get a project started with any of our examples ranging from using parts of the framework to custom components and layouts."
+   />
   </Head>
-  <Container margin="t-5">
+  <NuxtLayout name="landing">
+   <Container margin="t-5">
     <HeroHeadingsDescription />
-  </Container>
-  <HeroLandingVb />
-  <Container margin="y-5">
+   </Container>
+   <HeroLandingVb />
+   <Container margin="y-5">
     <ColumnsOurService />
-  </Container>
-  <Background background-color="blue-100" pattern-src="/hero-patterns/jigsaw.svg" :pattern-parallax="0.05" margin="y-5">
+   </Container>
+   <Background
+    background-color="blue-100"
+    pattern-src="/hero-patterns/jigsaw.svg"
+    :pattern-parallax="0.05"
+    margin="y-5"
+   >
     <Container margin="y-5">
-      <ColumnsOurServiceHighlights />
+     <ColumnsOurServiceHighlights />
     </Container>
-  </Background>
-  <Container margin="y-5">
+   </Background>
+   <Container margin="y-5">
     <BlocksKeyBenefits />
-  </Container>
-  <hr />
-  <Container margin="y-5">
+   </Container>
+   <hr>
+   <Container margin="y-5">
     <ColumnsServiceStats />
-  </Container>
-  <Background background-color="body-secondary" pattern-src="/hero-patterns/texture.svg" margin="y-5">
+   </Container>
+   <Background
+    background-color="body-secondary"
+    pattern-src="/hero-patterns/texture.svg"
+    margin="y-5"
+   >
     <Container margin="y-5">
-      <ColumnsSuccessStories />
+     <ColumnsSuccessStories />
     </Container>
-  </Background>
-
+   </Background>
+  </NuxtLayout>
+ </div>
 </template>
