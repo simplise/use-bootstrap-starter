@@ -10,14 +10,13 @@
     "postinstall": "nuxt prepare"
   },
   "dependencies": {
-    "ipx": "^3.0.1",
     "sass": "1.77.6",
-    "usebootstrap": "^3.5.101",
+    "usebootstrap": "^3.5.102",
     "vue": "latest"
   },
   "devDependencies": {
     "@nuxt/eslint": "^0.6.2",
-    "nuxt": "^3.16.1"
+    "nuxt": "^3.16.2"
   },
   "volta": {
     "node": "22.14.0"
