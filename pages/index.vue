@@ -1,11 +1,4 @@
 <template>
- <Head>
-  <PageMeta
-   title="About use-bootstrap"
-   description="Quickly get a project started with any of our examples ranging from using parts of the framework to custom components and layouts."
-  />
- </Head>
- <NuxtLayout name="landing">
   <Container margin="t-5">
    <HeroHeadingsDescription />
   </Container>
@@ -39,5 +32,4 @@
     <ColumnsSuccessStories />
    </Container>
   </Background>
- </NuxtLayout>
-</template>
+ </template>

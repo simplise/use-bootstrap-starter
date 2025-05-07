@@ -1,11 +1,4 @@
 <template>
- <Head>
-  <PageMeta
-   title="About use-bootstrap"
-   description="Quickly get a project started with any of our examples ranging from using parts of the framework to custom components and layouts."
-  />
- </Head>
- <NuxtLayout>
   <Background
    video-src="/pexels/movie/3209211-uhd_3840_2160_25fps.mp4"
    :overlay="true"
@@ -32,5 +25,4 @@
   </Background>
   <h2>First step</h2>
   <h2>Second step</h2>
- </NuxtLayout>
 </template>

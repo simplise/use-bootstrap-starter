@@ -1,7 +1,19 @@
 {
  "/": {
-  "title": "use-bootstrap - Starter",
-  "description": "use-bootstrap is the front-end framework based on Nuxt3 and Bootstrap5.",
+  "title": "About use-bootstrap - Starter",
+  "description": "Quickly get a project started with any of our examples ranging from using parts of the framework to custom components and layouts.",
   "layout": "landing"
+ },
+ "/docs": {
+  "title": "About use-bootstrap - Starter",
+  "description": "Quickly get a project started with any of our examples ranging from using parts of the framework to custom components and layouts."
+ },
+ "/lang-en": {
+  "title": "Localization - Starter",
+  "description": "Make your site multilingual with <Localization>"
+ },
+ "/lang-ja": {
+  "title": "Localization - Starter",
+  "description": "<Localization>を用いて多言語に対応するサイトを作りましょう。"
  }
 }
