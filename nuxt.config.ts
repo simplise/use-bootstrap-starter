@@ -31,6 +31,9 @@ export default defineNuxtConfig({
     reqres: {
      type: 'fetch',
      prefix: 'https://reqres.in/api/',
+     headers: {
+      'x-api-key': ' reqres-free-v1',
+     },
     },
    },
   },
