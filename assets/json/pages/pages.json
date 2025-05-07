@@ -1,19 +1,19 @@
 {
  "/": {
-  "title": "About use-bootstrap - Starter",
+  "title": "About use-bootstrap",
   "description": "Quickly get a project started with any of our examples ranging from using parts of the framework to custom components and layouts.",
   "layout": "landing"
  },
  "/docs": {
-  "title": "About use-bootstrap - Starter",
+  "title": "About use-bootstrap",
   "description": "Quickly get a project started with any of our examples ranging from using parts of the framework to custom components and layouts."
  },
  "/lang-en": {
-  "title": "Localization - Starter",
+  "title": "Localization",
   "description": "Make your site multilingual with <Localization>"
  },
  "/lang-ja": {
-  "title": "Localization - Starter",
+  "title": "Localization",
   "description": "<Localization>を用いて多言語に対応するサイトを作りましょう。"
  }
 }
