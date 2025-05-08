@@ -1,29 +1,11 @@
 <template>
- <b-div
-  padding="t-2"
-  class="intro"
-  position="relative"
- >
-  <ViewState
-   v-slot="title"
-   src="localization://title"
-  >
-   <b-h
-    level="1"
-    class="intro-title"
-    margin="b-2 t-2 b-lg-4"
-    display-headings="3"
-   >
-    {{ title.data }}
+ <b-div padding="y-3">
+  <ViewState v-slot="meta" src="route://meta">
+   <b-h level="1" margin="y-3" display-headings="3">
+    {{ meta.data.title }}
    </b-h>
-  </ViewState>
-
-  <ViewState
-   v-slot="description"
-   src="localization://description"
-  >
    <p class="lead">
-    {{ description.data }}
+    {{ meta.data.description }}
    </p>
   </ViewState>
  </b-div>

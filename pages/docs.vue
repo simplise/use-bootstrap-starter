@@ -1,4 +1,5 @@
 <template>
+  <DocsIntro />
   <Background
    video-src="/pexels/movie/3209211-uhd_3840_2160_25fps.mp4"
    :overlay="true"
@@ -23,13 +24,6 @@
     />
    </b-h>
   </Background>
-   <ViewState
-    v-slot="meta"
-    src="route://meta"
-  >
-  <h1>{{ meta.data.title }}</h1>
-  <p>{{ meta.data.description }}</p>
- </ViewState>
   <h2>First step</h2>
   <h2>Second step</h2>
 </template>

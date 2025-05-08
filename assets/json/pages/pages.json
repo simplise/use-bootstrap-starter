@@ -8,12 +8,12 @@
   "title": "About use-bootstrap",
   "description": "Quickly get a project started with any of our examples ranging from using parts of the framework to custom components and layouts."
  },
- "/lang-en": {
+ "/lang-en/localization": {
   "title": "Localization",
   "description": "Make your site multilingual with <Localization>"
  },
- "/lang-ja": {
-  "title": "Localization",
+ "/lang-ja/localization": {
+  "title": "多言語対応",
   "description": "<Localization>を用いて多言語に対応するサイトを作りましょう。"
  }
 }
