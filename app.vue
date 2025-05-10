@@ -5,7 +5,7 @@
    <div v-if="page.data">
 
     <Head>
-     <PageMeta :title="page.data.title" :description="page.data.description">
+     <PageMeta :title="page.data.title" :description="page.data.description" :route-meta="page.data">
       <LdArticle :headline="page.data.title" />
      </PageMeta>
     </Head>
